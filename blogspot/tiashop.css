@@ -1,0 +1,45 @@
+
+/* START SIMPLE RESPONSIVE GALLERY XOMISSE */
+.gallery {
+    padding: 0 5px;
+    float: left;
+    width: 24.99999%;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.gallery img:hover {
+	opacity: 0.8;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px){
+    .gallery {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .gallery {
+        width: 100%;
+    }
+}
+
+.image-gallery:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* END SIMPLE RESPONSIVE GALLERY XOMISSE */
